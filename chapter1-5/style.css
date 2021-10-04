@@ -1,2 +1,130 @@
-.hoge {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .heading {
+  margin: 20px 0;
+}
+
+nav {
+  padding: 15px 0;
+  width: 100%;
+  border: solid black;
+  border-top-width: 1px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  text-align: center;
+}
+
+.nav-list-item {
+  margin: 0 20px;
+  list-style: none;
+  display: inline-block;
+}
+
+.main-box {
+  width: 800px;
+  height: 600px;
+  margin: 50px auto;
+}
+
+.main-box-item {
+  display: flex;
+  justify-content: center;
+}
+
+.square1 {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.square2 {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.square3 {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.square4 {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.square5 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.square6 {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.square7 {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.square8 {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.square9 {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.square10 {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+.square11 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.square12 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: #848282;
+  text-align: center;
+}
+
+.footer-text {
+  line-height: 120px;
 }
