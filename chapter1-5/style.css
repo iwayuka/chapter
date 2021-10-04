@@ -5,28 +5,16 @@
 }
 
 header {
-  margin: 0 auto;
-  text-align: center;
-}
-
-header .heading {
-  margin: 20px 0;
-}
-
-nav {
-  padding: 15px 0;
   width: 100%;
-  border: solid black;
-  border-top-width: 1px;
-  border-right-width: 0px;
-  border-bottom-width: 1px;
-  border-left-width: 0px;
-  display: flex;
-  justify-content: center;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .nav-list {
   text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #848282;
+  border-top: 1px solid #848282;
 }
 
 .nav-list-item {
@@ -35,15 +23,11 @@ nav {
   display: inline-block;
 }
 
-.main-box {
+.main {
   width: 800px;
-  height: 600px;
   margin: 50px auto;
-}
-
-.main-box-item {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap; /* 折り返しの時に使用する */
 }
 
 .square1 {
@@ -123,8 +107,9 @@ footer {
   height: 120px;
   background-color: #848282;
   text-align: center;
+  line-height: 120px;
 }
 
 .footer-text {
-  line-height: 120px;
+  color: #fff;
 }
